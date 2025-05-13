@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Screens/animation_controller_example.dart';
+
 void main() {
   runApp(AnimacionesDemoApp());
 }
@@ -10,7 +12,7 @@ class AnimacionesDemoApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Animaciones',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: AnimacionesHome(),
+      home: AnimationControllerExample(),
     );
   }
 }
